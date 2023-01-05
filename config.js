@@ -20,7 +20,7 @@ config.filtered_stream.rules = {
 }
 
 config.gcp_infra = {
-    "projectId" : "twttr-des-sa-demo-dev",
+    "projectId" : "twitter-quorums",
     "topicName" : "fs-crypto",
     "subscriptionName" : "fs-crypto-sub",
     "messageCount" : 100
