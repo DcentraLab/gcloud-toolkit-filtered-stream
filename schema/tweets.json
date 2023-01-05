@@ -10,6 +10,11 @@
         "mode": "NULLABLE"
     },
     {
+        "name": "full_text",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
         "name": "tweet_url",
         "type": "STRING",
         "mode": "NULLABLE"
