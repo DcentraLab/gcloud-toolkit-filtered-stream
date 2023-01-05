@@ -196,7 +196,6 @@ async function insertTweets(data) {
             let row = {
                 id: tweet.id,
                 text: tweet.text,
-                full_text: tweet.full_text,
                 source: tweet.source,
                 author_id: tweet.author_id,
                 conversation_id: tweet.conversation_id,
