@@ -187,6 +187,7 @@ async function insertTweets(data) {
     var resultRows = [];
     data.forEach(function (tweetData, index) {
         let tweet = JSON.parse(tweetData).data;
+        let rules_match = JSON.parse(tweetData).matching_rules;
         if (tweet) {
             var cDate = new Date(tweet.created_at);
             if (tweet.context_annotations === undefined)
@@ -197,6 +198,7 @@ async function insertTweets(data) {
                 id: tweet.id,
                 text: tweet.text,
                 source: tweet.source,
+                rule_tags: rules_match,
                 author_id: tweet.author_id,
                 conversation_id: tweet.conversation_id,
                 created_at: BigQuery.datetime(cDate.toISOString()),

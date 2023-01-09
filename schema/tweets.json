@@ -5,6 +5,21 @@
         "mode": "NULLABLE"
     },
     {
+        "name": "rule_tags",
+        "type": "RECORD",
+        "mode": "REPEATED",
+        "fields": [
+            {
+                "name": "id",
+                "type": "STRING"
+            },
+            {
+                "name": "tag",
+                "type": "STRING"
+            }
+        ]
+    },
+    {
         "name": "text",
         "type": "STRING",
         "mode": "NULLABLE"
