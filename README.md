@@ -7,7 +7,7 @@ gcloud config set project twitter_quorums
 
 gcloud services enable bigquery.googleapis.com
 
-git clone https://github.com/twitterdev/gcloud-toolkit-filtered-stream.git
+git clone https://github.com/DcentraLab/gcloud-toolkit-filtered-stream.git
 
 cd gcloud-toolkit-filtered-stream
 
