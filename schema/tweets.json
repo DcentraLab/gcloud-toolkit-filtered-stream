@@ -83,6 +83,11 @@
                 "name": "retweet_count",
                 "type": "INTEGER",
                 "mode": "NULLABLE"
+            },
+            {
+                "name": "impression_count",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
             }
         ]
     },

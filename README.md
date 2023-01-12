@@ -34,3 +34,6 @@ $ gcloud app logs tail -s default
 # To view your application in the web browser run:
 $ gcloud app browse
 
+# to clean resources:
+https://twitter-quorums.ue.r.appspot.com/stream/clean
+
